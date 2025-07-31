@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load CSV with correct encoding
-df = pd.read_csv("CarbonDashboard/data/suppliers.csv", encoding='unicode_escape')
+df = pd.read_csv("Data/suppliers.csv", encoding='unicode_escape')
 
 st.title("Supplier Sustainability Overview")
 
