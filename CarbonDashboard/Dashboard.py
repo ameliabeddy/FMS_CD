@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-commitments = pd.read_csv("CarbonDashboard/data/commitments.csv")
+commitments = pd.read_csv("Data/commitments.csv")
 
 
 st.set_page_config(page_title="CarbonDashboard", layout="wide")
